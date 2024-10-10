@@ -37,3 +37,5 @@ resource "azurerm_storage_blob" "error" {
   content_type           = "text/html"
   source                 = "../app/error.html"
 }
+
+#
